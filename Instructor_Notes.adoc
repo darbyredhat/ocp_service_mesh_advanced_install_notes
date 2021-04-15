@@ -2,7 +2,7 @@
 
 :numbered:
 
-== *OCP Cluster *
+== OCP Cluster 
 . Provision your own OCP 4.6 environment
 
 . Instructor uses _MachineSet API_ to scale to appropriately sized cluster
@@ -32,14 +32,6 @@ $ oc scale machineset <MACHINESETNAME> --replicas=<COUNT> -n openshift-machine-a
 ----
 $ oc get machinesets -n openshift-machine-api -w
 ----
-
-== Configure Environment to Stay Up
-During the course, you want the environment to stay up, without idling. You can set this in the CloudForms UI.
-
-. Select your service, then select *Admin* drop-down
-. Select *Unidle*
-
-image::images/admin-unidle.png[]
  
 == Prep Provisioning Environment
 
